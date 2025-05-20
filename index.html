@@ -1,309 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Murilo Oliveira</title>
     <!--SWIPER-->
 
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <!--ICONES-->
 
-    <link rel="stylesheet" href="assets/fonts/style.css">
+    <link rel="stylesheet" href="assets/fonts/style.css" />
 
     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
 
-
     <!--STYLES-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- FONTS -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-
-    </head>
-<body>
-    <header id="header" >
-        <nav class="container ">
-            <a class="logo" href="#">Murilo <span>Oliveira</span>.</a>
-            <!-- MENU -->
-            <div class="menu" >
-                <ul class="grid">
-                    <li><a class="title" href="#home">Início</a></li>
-                    <li><a class="title" href="#about">Sobre</a></li>
-                    <li><a class="title" href="#project">Projetos</a></li>
-                    <li><a class="title" href="#contact">Contato</a></li>
-                </ul>
-            </div>
-            <!-- /MENU -->
-            <div class="toggle icon-menu"></div>
-            <div class="toggle icon-close"></div>
-        </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Murilo <span>Oliveira</span>.</a>
+        <!-- MENU -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#project">Projetos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /MENU -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
     </header>
     <main>
-        <!--HOME-->
-        <section class="section" id="home">
-            <div class="container grid">
-                
-                <div class="image">
-                    <img src="/assets/programador-desenho.webp" alt="">
-                </div>
-                <div class="text">
-                    <h2 class="title">Olá, Eu sou</h2>
-        
-                <h1 id="maquinaDeEscrever"><span></span></h1>
-        
-                <p id="main-text">DESENVOLVEDOR FRONT-END</p>
-
-                <a href="#contact" class="button">Entrar em contato</a>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider-1"></div>
-
-        <!--ABOUT-->
-
-        <section class="section" id="about">
-            <div class="container grid">
-                <div class="image">
-                    <img src="assets/projetos.jpg" alt="">
-                </div>
-                <div class="text">
-                    <h2 class="title">Sobre mim</h2>
-                        <p>
-                        Meu nome é Murilo Leite de Oliveira e eu sou um apaixonado por
-                        tecnologia e decidi trilhar o caminho da programação. Atualmente
-                        estou focando nas tecnologias voltadas ao FrontEnd.
-                        </p>
-                        <br />
-                        <p>Hoje já entendo HTML / CSS / javascript.</p>
-                        <br />
-                        <p>
-                        Continuo meus estudos constante de javascript. E começando os
-                        estudos de ReactJS
-                        </p>
-                        <br />
-                        <p>
-                        Meu objetivo é um dia me tornar um programador e ser
-                        reconhecido na área.
-                        </p>
-                <a href="assets/curriculo/curriculo.html" target="_blank" class="button">Currículo</a>
-
-                </div>
-            </div>
-        </section>
-
-        <div class="divider-2"></div>
-
-        <!--PROJECTS-->
-
-        <section class="section" id="project">
-            <div class="container swiper">
-            <header>
-                <h2 class="title">Projetos</h2>
-                <p class="subtitle">
-                Conheçam alguns projetos que foram muito importantes para o meu
-                crescimento de aprendizagem.
-                </p>
-            </header>
-            <div class="project swiper-container">
-                <div class="swiper-wrapper">
-                <div class="project swiper-slide">
-                    <blockquote>
-                    <img src="/assets/images/salon.jpg" alt="" />
-
-                    <h3 class="title">BeautySalon</h3>
-                    <p>
-                        Focado no front end, beautysalon é um site modelo flexível
-                        para ser usado para qualquer tipo de negócio, vai da
-                        necessidade do que você precisa vender.
-                    </p>
-
-                    <a
-                        class="button"
-                        target="_blank"
-                        href="https://devmurilooliveira.github.io/beautysalon/"
-                    >
-                        Visualizar
-                    </a>
-                    </blockquote>
-                </div>
-
-                <div class="project swiper-slide">
-                    <blockquote>
-                    <img src="/assets/images/doctor-care.jpg" alt="" />
-                    <h3 class="title">DoctorCare</h3>
-                    <p>
-                        Focado no front end, DoctorCare é um site modelo flexível
-                        para ser usado para qualquer tipo de negócio, vai da
-                        necessidade do que você precisa vender.
-                    </p>
-
-                    <a
-                        class="button"
-                        target="_blank"
-                        href="https://devmurilooliveira.github.io/doctor-car/"
-                    >
-                        Visualizar
-                    </a>
-                    </blockquote>
-                </div>
-
-                <div class="project swiper-slide">
-                    <blockquote>
-                    <img src="/assets/images/alura-books.jpg" alt="" />
-                    <h3 class="title">Alura Books</h3>
-                    <p>
-                        Focado nas práticas do HTML e CSS a Alura Books é um site
-                        modelo que pode ser usado para vendas de livros, totalmente
-                        responsivos para qualquer tipo de tela.
-                    </p>
-
-                    <a
-                        class="button"
-                        target="_blank"
-                        href="https://devmurilooliveira.github.io/Alura-Books/"
-                    >
-                        Visualizar
-                    </a>
-                    </blockquote>
-                </div>
-
-                <div class="project swiper-slide">
-                    <blockquote>
-                    <img src="/assets/images/hzc.jpg" alt="" />
-                    <h3 class="title">HZC</h3>
-                    <p>
-                        Focado nas práticas do HTML e CSS o HZC é uma tela inicial
-                        de um site de skatistas que pode ser usado como base para
-                        qualquer tipo de site, responsivo para mobile e desktop.
-                    </p>
-
-                    <a
-                        class="button"
-                        target="_blank"
-                        href="https://devmurilooliveira.github.io/HZC/"
-                    >
-                        Visualizar
-                    </a>
-                    </blockquote>
-                </div>
-
-                <div class="project swiper-slide">
-                    <blockquote>
-                    <img src="/assets/images/alura-mid.jpg" alt="" />
-                    <h3 class="title">Alura Mid</h3>
-                    <p>
-                        Focado nas práticas do javascript O Alura Midi é um
-                        instrumento musical de interface digital, onde a cada botão
-                        vamos reproduzir o som de um instrumento.
-                    </p>
-
-                    <a
-                        class="button"
-                        target="_blank"
-                        href="https://alura-mid-eta.vercel.app/"
-                    >
-                        Visualizar
-                    </a>
-                    </blockquote>
-                </div>
-
-
-                <div class="project swiper-slide">
-                    <blockquote>
-                    <img src="/assets/images/numero-secreto.jpg" alt="" />
-                    <h3 class="title">Numero Secreto</h3>
-                    <p>
-                        Focado nas práticas do javascript o Numero Secreto é um jogo
-                        onde você tem que adivinhar um numero aleatório entre 0 e
-                        1000.
-                    </p>
-
-                    <a
-                        class="button"
-                        target="_blank"
-                        href="https://jogo-numero-secreto-beige-rho.vercel.app/"
-                    >
-                        Visualizar
-                    </a>
-                    </blockquote>
-                </div>
-                </div>
-
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
-            </div>
-        </section>
-
-        <div class="divider-1"></div>
-
-        <!--CONTACT-->
-
-        <section class="section" id="contact">
-            <div class="container grid">
-              <div class="text">
-                <h2 class="title">Entre em contato!</h2>
-                
-                    <a
-                href="https://api.whatsapp.com/send?phone=+5519971549006&text=Oi"
-                class="button"
-                target="_blank"
-                ><i class="icon-whatsapp"></i> Entrar em contato</a
-                >
-              </div>
-    
-              <div class="links">
-                <ul class="grid">
-                    <li><i class="icon-phone"></i> (19) 97154-9006</li>
-                    <li><i class="icon-mail"></i> muriloleiteoliveira1@gmail.com</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-
-        <div class="divider-2"></div>
-    </main>
-    <footer class="section">
+      <!--HOME-->
+      <section class="section" id="home">
         <div class="container grid">
-          <div class="brand">
-            <a class="logo logo-alt" href="#home">Murilo<span>Oliveira</span>.</a>
-            <p>©2022 Murilo Oliveira.</p>
-            <p>Todos os direitos reservados.</p>
+          <div class="image">
+            <img src="/assets/programador-desenho.webp" alt="" />
           </div>
-  
-          <div class="social grid">
-            <a
-              href="https://api.whatsapp.com/send?phone=+5519971549006&text=Oi"
-              target="_blank"
-            >
-              <i class="icon-whatsapp"></i>
-            </a>
-  
-            <a href="https://github.com/devMuriloOliveira" target="_blank">
-              <img src="assets/images/GitHub-Mark-Light-32px.png" alt="" />
-            </a>
-  
-            <a
-              href="https://www.linkedin.com/in/murilo-oliveira-28ab52248/"
-              target="_blank"
-            >
-              <img src="assets/images/linkedin.png" alt="" />
-            </a>
+          <div class="text">
+            <h2 class="title">Olá, Eu sou</h2>
 
+            <h1 id="maquinaDeEscrever"><span></span></h1>
+
+            <p id="main-text">DESENVOLVEDOR FRONT-END</p>
+
+            <a href="#contact" class="button">Entrar em contato</a>
           </div>
         </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--ABOUT-->
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="assets/projetos.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre mim</h2>
+            <p>
+              Olá! Meu nome é Murilo Leite de Oliveira, sou apaixonado por
+              tecnologia e estou trilhando meu caminho na área da programação,
+              com foco no desenvolvimento FrontEnd.
+            </p>
+            <br>
+            <p>
+              Atualmente, estou aprofundando meus conhecimentos em JavaScript e
+              no framework Vue.js, além de ter uma base sólida em HTML e CSS.
+              Também estou me familiarizando com ReactJS e buscando sempre novas
+              formas de aprimorar minhas habilidades técnicas.
+            </p>
+            <br>
+            <p>
+              Estou atualmente no quinto semestre da faculdade de Análise e
+              Desenvolvimento de Sistemas. Paralelamente, venho adquirindo
+              experiência prática no desenvolvimento FrontEnd por meio de
+              projetos e vivências profissionais.
+            </p>
+            <br>
+            <p>
+              Meu objetivo é continuar evoluindo como desenvolvedor,
+              contribuindo com soluções eficientes e criativas. Estou aberto a
+              novas oportunidades na área, buscando sempre aprender, crescer e
+              fazer a diferença com o meu trabalho.
+            </p>
+
+            <a
+              href="assets/curriculo/curriculo.html"
+              target="_blank"
+              class="button"
+              >Currículo</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--PROJECTS-->
+
+      <section class="section" id="project">
+        <div class="container swiper">
+          <header>
+            <h2 class="title">Projetos</h2>
+            <p class="subtitle">
+              Conheçam alguns projetos que foram muito importantes para o meu
+              crescimento de aprendizagem.
+            </p>
+          </header>
+          <div class="project swiper-container">
+            <div class="swiper-wrapper">
+              <div class="project swiper-slide">
+                <blockquote>
+                  <img src="/assets/images/salon.jpg" alt="" />
+
+                  <h3 class="title">BeautySalon</h3>
+                  <p>
+                    Focado no front end, beautysalon é um site modelo flexível
+                    para ser usado para qualquer tipo de negócio, vai da
+                    necessidade do que você precisa vender.
+                  </p>
+
+                  <a
+                    class="button"
+                    target="_blank"
+                    href="https://devmurilooliveira.github.io/beautysalon/"
+                  >
+                    Visualizar
+                  </a>
+                </blockquote>
+              </div>
+
+              <div class="project swiper-slide">
+                <blockquote>
+                  <img src="/assets/images/doctor-care.jpg" alt="" />
+                  <h3 class="title">DoctorCare</h3>
+                  <p>
+                    Focado no front end, DoctorCare é um site modelo flexível
+                    para ser usado para qualquer tipo de negócio, vai da
+                    necessidade do que você precisa vender.
+                  </p>
+
+                  <a
+                    class="button"
+                    target="_blank"
+                    href="https://devmurilooliveira.github.io/doctor-car/"
+                  >
+                    Visualizar
+                  </a>
+                </blockquote>
+              </div>
+
+              <div class="project swiper-slide">
+                <blockquote>
+                  <img src="/assets/images/alura-books.jpg" alt="" />
+                  <h3 class="title">Alura Books</h3>
+                  <p>
+                    Focado nas práticas do HTML e CSS a Alura Books é um site
+                    modelo que pode ser usado para vendas de livros, totalmente
+                    responsivos para qualquer tipo de tela.
+                  </p>
+
+                  <a
+                    class="button"
+                    target="_blank"
+                    href="https://devmurilooliveira.github.io/Alura-Books/"
+                  >
+                    Visualizar
+                  </a>
+                </blockquote>
+              </div>
+
+              <div class="project swiper-slide">
+                <blockquote>
+                  <img src="/assets/images/hzc.jpg" alt="" />
+                  <h3 class="title">HZC</h3>
+                  <p>
+                    Focado nas práticas do HTML e CSS o HZC é uma tela inicial
+                    de um site de skatistas que pode ser usado como base para
+                    qualquer tipo de site, responsivo para mobile e desktop.
+                  </p>
+
+                  <a
+                    class="button"
+                    target="_blank"
+                    href="https://devmurilooliveira.github.io/HZC/"
+                  >
+                    Visualizar
+                  </a>
+                </blockquote>
+              </div>
+
+              <div class="project swiper-slide">
+                <blockquote>
+                  <img src="/assets/images/alura-mid.jpg" alt="" />
+                  <h3 class="title">Alura Mid</h3>
+                  <p>
+                    Focado nas práticas do javascript O Alura Midi é um
+                    instrumento musical de interface digital, onde a cada botão
+                    vamos reproduzir o som de um instrumento.
+                  </p>
+
+                  <a
+                    class="button"
+                    target="_blank"
+                    href="https://alura-mid-eta.vercel.app/"
+                  >
+                    Visualizar
+                  </a>
+                </blockquote>
+              </div>
+
+              <div class="project swiper-slide">
+                <blockquote>
+                  <img src="/assets/images/numero-secreto.jpg" alt="" />
+                  <h3 class="title">Numero Secreto</h3>
+                  <p>
+                    Focado nas práticas do javascript o Numero Secreto é um jogo
+                    onde você tem que adivinhar um numero aleatório entre 0 e
+                    1000.
+                  </p>
+
+                  <a
+                    class="button"
+                    target="_blank"
+                    href="https://jogo-numero-secreto-beige-rho.vercel.app/"
+                  >
+                    Visualizar
+                  </a>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--CONTACT-->
+
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato!</h2>
+
+            <a
+              href="https://api.whatsapp.com/send?phone=+5519971549006&text=Oi"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> (19) 97154-9006</li>
+              <li><i class="icon-mail"></i> muriloleiteoliveira1@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+    </main>
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">Murilo<span>Oliveira</span>.</a>
+          <p>©2025 Murilo Oliveira.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social grid">
+          <a
+            href="https://api.whatsapp.com/send?phone=+5519971549006&text=Oi"
+            target="_blank"
+          >
+            <i class="icon-whatsapp"></i>
+          </a>
+
+          <a href="https://github.com/devMuriloOliveira" target="_blank">
+            <img src="assets/images/GitHub-Mark-Light-32px.png" alt="" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/murilo-oliveira-28ab52248/"
+            target="_blank"
+          >
+            <img src="assets/images/linkedin.png" alt="" />
+          </a>
+        </div>
+      </div>
     </footer>
-    
-    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a> 
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
     <!-- SWIPER -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -313,7 +325,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- SCROLLREVEAL -->
 
-
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
